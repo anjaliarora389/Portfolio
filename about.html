@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.image_text {
+position: relative;
+}
+.image_text div {
+position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+</style>
+</head>
+<body class="page2_body">
+<header class="page1_head">
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="skills.html">SKILLS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</header>
+
+<div class="main page2_center">
+<!--<img id="smiley" src="about.jpg" alt="smiley" height="300px" width="300px">-->
+<div class="image_text">
+<img id="smiley" src="https://media.giphy.com/media/AIt3Wbzh6gPC0/giphy.gif" alt="Smiley" height="300px" width="300px">
+<div class="click">Click Below Me</div>
+</div>
+<p class="page2_about">I am a 24 year old web developer, who is passionate about developing and designing interactive Websites. I started my career with Ericsson 3.5 years back as a Telecom Engineer. Seeing beautiful websites all over the internet, intrigued me to learn HTML, CSS, JavaScript, JQuery and Responsive Web Designing etc. My inclination towards becoming a front-end developer got me a project in this field. I look forward to take up new challenges.</p>  
+</div>
+
+<script>
+document.getElementById("smiley").onclick = function() {
+	document.getElementById("smiley").src = "smiley2.jpg";
+};
+</script>
+</body>
+</html>

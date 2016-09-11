@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Skills</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="page3_body">
+<header class="page1_head">
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="skills.html">SKILLS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</header>
+
+<section class="page3_sec">
+<div id="moving"><p id="text">HTML</p></div>
+</section>
+<div class="rotating_dice"></div>
+<script>
+var x = document.getElementById("text");
+x.innerHTML = "Let's check out my skills!"
+var myTime= setInterval(fun, 15000);
+var set1 = setTimeout(fun1, 3000);
+var set2 = setTimeout(fun2, 6000);
+var set3 = setTimeout(fun3, 9000);
+var set4 = setTimeout(fun4, 12000);
+var set5 = setTimeout(fun5, 15000);
+
+function fun(){
+setTimeout(fun1, 3000);
+setTimeout(fun2, 6000);
+setTimeout(fun3, 9000);
+setTimeout(fun4, 12000);
+setTimeout(fun5, 15000);
+}
+
+function fun1(){
+x.innerHTML = "HTML";
+}
+
+function fun2(){
+x.innerHTML = "CSS";
+}
+
+function fun3(){
+x.innerHTML = "JavaScript";
+}
+
+function fun4(){
+x.innerHTML = "JQuery";
+}
+
+function fun5(){
+x.innerHTML = "Responsive Web Design";
+}
+</script>
+</body>
+</html>

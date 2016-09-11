@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<title>Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="page1_body">
+<!-- Header Menu -->
+<div class="main">
+<header class="page1_head">
+<ul>
+<li><a href="#">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="skills.html">SKILLS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</header>
+
+<!-- Main Content -->
+<article class="page1_main">
+<!--<img src="rose.png" alt="rose" height="100px" width="100px">-->
+<!--<img src="https://threequartersandcounting.files.wordpress.com/2015/10/smiley-face-waving-hello-1594409.gif?w=640" alt="HI">-->
+<h1>Hi, I AM ANJALI!</h1>
+<p id="rotate">I AM A UI DEVELOPER FROM INDIA, CURRENTLY BASED IN BANGALORE</p>
+<span id="learn_more">Learn more about me</span>
+<p class="hiddenDiv">Click on About on top right corner of the page.</p>
+</div>
+</article>
+
+</div>
+
+<script>
+$(document).ready(function(){
+	$("#learn_more").click(function(){
+		$(".hiddenDiv").toggle();
+	});
+});
+</script>
+</body>
+</html>
